@@ -25,6 +25,7 @@ public class Operation06 {
         String name3 = new String("김준일");
         System.out.println(name2 == name3);
         System.out.println(name2 == "김준일");
+        System.out.println(name2 == "김준일");
 
 
     }
