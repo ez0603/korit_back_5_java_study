@@ -1,7 +1,5 @@
 package com.study.ch07.member;
 
-import com.study.ch07.school.SchoolRepositer;
-
 import java.util.Scanner;
 
 public class MemberMain {
