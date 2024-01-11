@@ -80,7 +80,7 @@ public class MemberMain {
                  */ // 대상을 선택하여 수정하기
 
                 System.out.println("[ 회원 이름 수정하기 ]");
-                String searchName = inputSearchName("수정 할 회원의 이름을 입력하세요");
+                String searchName = inputSearchName("수정 할 회원의 이름을 입력하세요"); // 위에있는 inputSearchName을 통해 입력한 값을 찾아준다.
                 Member findMember = findMemberByName(searchName);
                 if (findMember == null) {
                     System.out.println("해당 이름의 회원이 존재하지 않습니다.");
@@ -88,7 +88,7 @@ public class MemberMain {
                 }
                 System.out.print("이름 >>");
                 String updateName = scanner.nextLine();
-                findMember.setName(updateName);
+                findMember.setName(updateName); // 수정한 값을 다시 넣어준다.
                 System.out.println("<< 수정이 완료되었습니다 >>");
 
             } else if ("3".equals(selectedMenu)) {
