@@ -10,9 +10,12 @@ public class BuilderMain {
         // new Car이 리턴되어야함
         // 클래스에서 . 찍어서 호출가능 = 스테틱 메소드
 
-
-
         System.out.println(car);
+
+        Member member = Member.builder()
+                .phone("01011112222")
+                .name("김준일")
+                .build();
 
 
     }

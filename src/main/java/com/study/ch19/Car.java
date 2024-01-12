@@ -35,8 +35,8 @@ public class Car {
         }
 
         public CarBuilder model(String model) { // 호출될때 매개변수를 받아온다
-            this.model = model;
-            return this;
+            this.model = model; // this를 쓰는이유 : 객체참조
+            return this; // CarBuilder 객체주소에 리턴
         }
 
         public CarBuilder color(String color) { // 호출될때 매개변수를 받아온다
